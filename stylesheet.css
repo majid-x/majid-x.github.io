@@ -8,7 +8,7 @@
 
 body {
     color: #ededed;
-    background: #081b29;
+    background: #000000;
 }
 
 .header {
@@ -17,7 +17,7 @@ body {
     left: 0;
     width: 100%;
     padding: 20px 10%;
-    background: #051129;
+    background: #fafafa;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -27,7 +27,7 @@ body {
 .logo {
     position: relative;
     font-size: 25px;
-    color: #fff;
+    color: #000000;
     text-decoration: none;
     font-weight: 600;
     cursor: default;
@@ -36,7 +36,7 @@ body {
 
 .navbar {
     display: inline-block;
-    color: #fff;
+    color: #000000;
     font-size: 25px;
     text-decoration: none;
     font-weight: 500;
@@ -50,7 +50,7 @@ body {
 }
 
 .navbar a:hover {
-    color: #0ef;
+    color: #000000;
 }
 
 .home {
@@ -58,7 +58,7 @@ body {
     width: 100%;
     justify-content: space-between;
     height: 100vh;
-    background: url(peakpx.jpg) no-repeat;
+    background: url(1603869.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -85,7 +85,7 @@ body {
 }
 
 .home-content h3 span {
-    color: #0ef;
+    color: #ff4545;
 }
 
 .home-content h1 {
@@ -111,9 +111,9 @@ body {
     width: 40px;
     height: 40px;
     background: transparent;
-    border: 20px solid #0ef;
+    border: 20px solid rgb(255, 44, 44);
     border-radius: 50%;
-    columns: #0ef;
+    columns: #ff4545;
     text-decoration: none;
     transition: .5s ease;
     opacity: 0;
@@ -123,15 +123,15 @@ body {
 }
 
 .home-sci a:hover {
-    background: #0ef;
-    color: #081b29;
-    box-shadow: 0 0 20px #0ef;
+    background: #ffffff;
+    color: #000000;
+    box-shadow: 0 0 20px #fffcfc;
 }
 
 .btn-box {
     display: inline-block;
     padding: 12px 28px;
-    background: #0ef;
+    background: #ffffff;
     border-radius: 40px;
     font-size: 16px;
     color: #081b29;
@@ -141,14 +141,14 @@ body {
     opacity: 0;
     animation: slideTop 1s ease forwards;
     animation-delay: 2s;
-    box-shadow: 0 0 5px #0ef,
-        0 0 25px #0ef
+    box-shadow: 0 0 5px #808080,
+        0 0 25px #808080
 }
 
 .btn-box:hover {
-    box-shadow: 0 0 5px cyan,
-        0 0 25px cyan, 0 0 50px cyan,
-        0 0 100px cyan, 0 0 200px cyan
+    box-shadow: 0 0 5px #ff4545,
+        0 0 25px #ff4545, 0 0 50px #ff4545,
+        0 0 100px #ff4545, 0 0 200px #ff4545
 }
 
 
@@ -170,7 +170,7 @@ body {
     font-size: 60px;
 }
 .about-text h2 span{
-    color: #0ef;
+    color: #ff4545;
 }
 
 @keyframes slideRight {
@@ -209,7 +209,7 @@ body {
     padding-bottom: 70px;
 }
 .sub-title span{
-    color: #0ef;
+    color: #ff4545;
 }
 .container{
     padding: 90px;
@@ -250,7 +250,7 @@ body {
 .read{
     display: inline-block;
     padding: 12px 28px;
-    background: #0ef;
+    background: #ff4545;
     border-radius: 40px;
     font-size: 16px;
     color: #081b29;
@@ -260,13 +260,13 @@ body {
     opacity: 0;
     animation: slideTop 1s ease forwards;
     animation-delay: 2s;
-    box-shadow: 0 0 5px #0ef,
-        0 0 25px #0ef
+    box-shadow: 0 0 5px #ff4545,
+        0 0 25px #ff4545
 }
 .read:hover{
-    box-shadow: 0 0 5px cyan,
-        0 0 25px cyan, 0 0 50px cyan,
-        0 0 100px cyan, 0 0 200px cyan
+    box-shadow: 0 0 5px #ff4545,
+        0 0 25px #ff4545, 0 0 50px #ff4545,
+        0 0 100px #ff4545, 0 0 200px #ff4545
 }
 
 .services-list div:hover{
@@ -329,7 +329,7 @@ section{
 }
 .Technical-bars .bar .progress-line span{
     height:100%;
-    background-color: #0ef;
+    background-color: #ff4545;
     position: absolute;
     border-radius: 10px;
     animation: animate 1s 1s cubic-bezier(1,0,0.5,1) forwards;
@@ -440,7 +440,7 @@ section{
 
 .path{
     stroke-width: 10;
-    stroke: #0ef;
+    stroke: #ff4545;
     fill: transparent;
     stroke-dasharray: 502;
     stroke-dashoffset: 502;
@@ -513,7 +513,7 @@ section{
     text-align: center;
 }
 .main-text h2 span{
-    color: #0ef;
+    color: #ff4545;
 }
 .portfolio-content{
     display: grid;
@@ -534,7 +534,7 @@ section{
 .layer{
     width: 100%;
     height: 0;
-    background: linear-gradient(rgba(0,0,0,0.1),#0ef);
+    background: linear-gradient(rgba(0,0,0,0.1),#fffefe);
     position: absolute;
     border-radius: 8px;
     left: 0;
@@ -549,18 +549,18 @@ section{
     transition: height 0.5s;
 }
 .layer h5{
-    color: #000;
+    color: #000000;
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 15px;
 }
 .layer p{
-    color: #000;
+    color: #000000;
     font-size: 1rem;
     line-height: 1.8;
 }
 .layer i{
-    color: #ff004f;
+    color: #f8a0bc;
     margin-top: 20px;
     font-size: 20px;
     background: #fff;
@@ -592,7 +592,7 @@ section{
     text-align: center;
 }
 .contact-text h2 span{
-    color: #0ef;
+    color: #ff4545;
 
 }
 .contact-text h4{
@@ -616,14 +616,14 @@ section{
 }
 .contact-list i{
     display: inline-block;
-    color: #0ef;
+    color: #ff4545;
     font-size: 20px;
     font-weight: 600;
     transition: all .40s ease;
 }
 .contact-list li a:hover{
     transform: scale(1.01) translateY(-5px);
-    color: #0ef;
+    color: #ff4545;
 }
 .contact-icon i{
     display: inline-flex;
@@ -632,10 +632,10 @@ section{
     width: 40px;
     height: 40px;
     background: transparent;
-    border: 2px solid #0ef;
+    border: 2px solid #ff4545;
     border-radius: 50%;
     font-size: 20px;
-    color: #0ef;
+    color: #ff4545;
     text-decoration: none;
     margin: 30px 15px 30px 0;
     transition: .5s ease;
@@ -644,9 +644,9 @@ section{
     animation-delay: calc(.2s* var(--i));
 }
 .contact-icon i:hover{
-    background: #0ef;
+    background: #ff4545;
     color: #000;
-    box-shadow: 0 0 20px #0ef;
+    box-shadow: 0 0 20px #ff4545;
 }
 .contact-form form{
     position: relative;
@@ -670,7 +670,7 @@ section{
 .contact-form form .send{
     display: inline-block;
     padding: 14px 60px;
-    background: #0ef;
+    background: #ff4545;
     border-radius: 40px;
     font-size: 18px;
     color: #081b29;
@@ -680,15 +680,15 @@ section{
     opacity: 0;
     animation: slideTop 1s ease forwards;
     animation-delay: 2s;
-    box-shadow: 0 0 5px #0ef,
-        0 0 25px #0ef
+    box-shadow: 0 0 5px #ff4545,
+        0 0 25px #ff4545
 }
 
 
 .contact-form form .send:hover{
-    box-shadow: 0 0 5px cyan,
-        0 0 25px cyan, 0 0 50px cyan,
-        0 0 100px cyan, 0 0 200px cyan
+    box-shadow: 0 0 5px #ff4545,
+        0 0 25px #ff4545, 0 0 50px #ff4545,
+        0 0 100px #ff4545, 0 0 200px #ff4545
 }
 
 .last-text p{
@@ -706,7 +706,7 @@ section{
 }
 .top i{
     color: #000;
-    background: #0ef;
+    background: #ff4545;
     font-size: 20px;
     padding: 10px;
     border-radius: 0.5rem;
@@ -763,7 +763,7 @@ section{
     
     body {
         color: #ededed;
-        background: #081b29;
+        background: #000000;
     }
     
     .header {
@@ -772,7 +772,7 @@ section{
         left: 0;
         width: 100%;
         padding: 20px 10%;
-        background: #051129;
+        background: #fafafa;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -782,7 +782,7 @@ section{
     .logo {
         position: relative;
         font-size: 25px;
-        color: #fff;
+        color: #000000;
         text-decoration: none;
         font-weight: 600;
         cursor: default;
@@ -791,7 +791,7 @@ section{
     
     .navbar {
         display: inline-block;
-        color: #fff;
+        color: #000000;
         font-size: 25px;
         text-decoration: none;
         font-weight: 500;
@@ -805,7 +805,7 @@ section{
     }
     
     .navbar a:hover {
-        color: #0ef;
+        color: #000000;
     }
     
     .home {
@@ -813,7 +813,7 @@ section{
         width: 100%;
         justify-content: space-between;
         height: 100vh;
-        background: url(peakpx.jpg) no-repeat;
+        background: url(1603869.jpg) no-repeat;
         background-size: cover;
         background-position: center;
         display: flex;
@@ -840,7 +840,7 @@ section{
     }
     
     .home-content h3 span {
-        color: #0ef;
+        color: #ff4545;
     }
     
     .home-content h1 {
@@ -866,9 +866,9 @@ section{
         width: 15%;
         height: 40px;
         background: transparent;
-        border: 20px solid #0ef;
+        border: 20px solid rgb(255, 44, 44);
         border-radius: 50%;
-        columns: #0ef;
+        columns: #ff4545;
         text-decoration: none;
         transition: .5s ease;
         opacity: 0;
@@ -878,15 +878,15 @@ section{
     }
     
     .home-sci a:hover {
-        background: #0ef;
-        color: #081b29;
-        box-shadow: 0 0 20px #0ef;
+        background: #ffffff;
+        color: #000000;
+        box-shadow: 0 0 20px #fffcfc;
     }
     
     .btn-box {
         display: inline-block;
         padding: 12px 28px;
-        background: #0ef;
+        background: #ffffff;
         border-radius: 40px;
         font-size: 16px;
         color: #081b29;
@@ -896,14 +896,14 @@ section{
         opacity: 0;
         animation: slideTop 1s ease forwards;
         animation-delay: 2s;
-        box-shadow: 0 0 5px #0ef,
-            0 0 25px #0ef
+        box-shadow: 0 0 5px #808080,
+            0 0 25px #808080
     }
     
     .btn-box:hover {
-        box-shadow: 0 0 5px cyan,
-            0 0 25px cyan, 0 0 50px cyan,
-            0 0 100px cyan, 0 0 200px cyan
+        box-shadow: 0 0 5px #ff4545,
+            0 0 25px #ff4545, 0 0 50px #ff4545,
+            0 0 100px #ff4545, 0 0 200px #ff4545
     }
     
     
@@ -925,7 +925,7 @@ section{
         font-size: 60px;
     }
     .about-text h2 span{
-        color: #0ef;
+        color: #ff4545;
     }
     
     @keyframes slideRight {
@@ -964,7 +964,7 @@ section{
         padding-bottom: 70px;
     }
     .sub-title span{
-        color: #0ef;
+        color: #ff4545;
     }
     .container{
         padding: 90px;
@@ -1005,7 +1005,7 @@ section{
     .read{
         display: inline-block;
         padding: 12px 28px;
-        background: #0ef;
+        background:#ff4545;
         border-radius: 40px;
         font-size: 16px;
         color: #081b29;
@@ -1015,13 +1015,13 @@ section{
         opacity: 0;
         animation: slideTop 1s ease forwards;
         animation-delay: 2s;
-        box-shadow: 0 0 5px #0ef,
-            0 0 25px #0ef
+        box-shadow: 0 0 5px #ff4545,
+            0 0 25px #ff4545
     }
     .read:hover{
-        box-shadow: 0 0 5px cyan,
-            0 0 25px cyan, 0 0 50px cyan,
-            0 0 100px cyan, 0 0 200px cyan
+        box-shadow: 0 0 5px #ff4545,
+            0 0 25px #ff4545, 0 0 50px #ff4545,
+            0 0 100px #ff4545, 0 0 200px #ff4545
     }
     
     .services-list div:hover{
@@ -1084,7 +1084,7 @@ section{
     }
     .Technical-bars .bar .progress-line span{
         height:100%;
-        background-color: #0ef;
+        background-color: #ff4545;
         position: absolute;
         border-radius: 10px;
         animation: animate 1s 1s cubic-bezier(1,0,0.5,1) forwards;
@@ -1195,7 +1195,7 @@ section{
     
     .path{
         stroke-width: 10;
-        stroke: #0ef;
+        stroke: #ff4545;
         fill: transparent;
         stroke-dasharray: 502;
         stroke-dashoffset: 502;
@@ -1268,7 +1268,7 @@ section{
         text-align: center;
     }
     .main-text h2 span{
-        color: #0ef;
+        color: #ff4545;
     }
     .portfolio-content{
         display: grid;
@@ -1289,7 +1289,7 @@ section{
     .layer{
         width: 100%;
         height: 0;
-        background: linear-gradient(rgba(0,0,0,0.1),#0ef);
+        background: linear-gradient(rgba(0,0,0,0.1),#fffefe);
         position: absolute;
         border-radius: 8px;
         left: 0;
@@ -1304,18 +1304,18 @@ section{
         transition: height 0.5s;
     }
     .layer h5{
-        color: #000;
+        color: #000000;
         font-size: 20px;
         font-weight: 600;
         margin-bottom: 15px;
     }
     .layer p{
-        color: #000;
+        color: #000000;
         font-size: 1rem;
         line-height: 1.8;
     }
     .layer i{
-        color: #ff004f;
+        color: #f8a0bc;
         margin-top: 20px;
         font-size: 20px;
         background: #fff;
@@ -1347,7 +1347,7 @@ section{
         text-align: center;
     }
     .contact-text h2 span{
-        color: #0ef;
+        color: #ff4545;
     
     }
     .contact-text h4{
@@ -1371,14 +1371,14 @@ section{
     }
     .contact-list i{
         display: inline-block;
-        color: #0ef;
+        color: #ff4545;
         font-size: 20px;
         font-weight: 600;
         transition: all .40s ease;
     }
     .contact-list li a:hover{
         transform: scale(1.01) translateY(-5px);
-        color: #0ef;
+        color: #ff4545;
     }
     .contact-icon i{
         display: inline-flex;
@@ -1387,10 +1387,10 @@ section{
         width: 8%;
         height: 40px;
         background: transparent;
-        border: 2px solid #0ef;
+        border: 2px solid #ff4545;
         border-radius: 50%;
         font-size: 20px;
-        color: #0ef;
+        color: #ff4545;
         text-decoration: none;
         margin: 30px 15px 30px 0;
         transition: .5s ease;
@@ -1399,9 +1399,9 @@ section{
         animation-delay: calc(.2s* var(--i));
     }
     .contact-icon i:hover{
-        background: #0ef;
+        background: #ff4545;
         color: #000;
-        box-shadow: 0 0 20px #0ef;
+        box-shadow: 0 0 20px #ff4545;
     }
     .contact-form form{
         position: relative;
@@ -1425,7 +1425,7 @@ section{
     .contact-form form .send{
         display: inline-block;
         padding: 14px 60px;
-        background: #0ef;
+        background: #ff4545;
         border-radius: 40px;
         font-size: 18px;
         color: #081b29;
@@ -1435,15 +1435,15 @@ section{
         opacity: 0;
         animation: slideTop 1s ease forwards;
         animation-delay: 2s;
-        box-shadow: 0 0 5px #0ef,
-            0 0 25px #0ef
+        box-shadow: 0 0 5px #ff4545,
+            0 0 25px #ff4545
     }
     
     
     .contact-form form .send:hover{
-        box-shadow: 0 0 5px cyan,
-            0 0 25px cyan, 0 0 50px cyan,
-            0 0 100px cyan, 0 0 200px cyan
+        box-shadow: 0 0 5px #ff4545,
+            0 0 25px #ff4545, 0 0 50px #ff4545,
+            0 0 100px #ff4545, 0 0 200px #ff4545
     }
     
     .last-text p{
@@ -1461,7 +1461,7 @@ section{
     }
     .top i{
         color: #000;
-        background: #0ef;
+        background: #ff4545;
         font-size: 20px;
         padding: 10px;
         border-radius: 0.5rem;
